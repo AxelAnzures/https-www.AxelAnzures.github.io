@@ -18,8 +18,9 @@ body{
 }
 
 .container{
+	width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin:  auto;
 }
 
 .header{
@@ -31,10 +32,11 @@ body{
         
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 70vh;
+	    background-position: center;
+        min-height: 100vh;
         display: flex;
         align-items: center;
-	    height: 100vh;
+	    color: white;
 	    position: relative;
 }
 
@@ -104,7 +106,10 @@ body{
 }
 
 .header-content {
+	max-width: 800px;
+	margin: 0 auto;
     text-align: center;
+	padding: 20px;
 }
 
 .header-content  h1 {
@@ -115,21 +120,24 @@ body{
     margin-bottom: 15px;
 
 }
-
+/* Párrafos */
 .header-content p {
-    font-size: 16px;
+    font-size: 18px;
+	line-height: 1.6;
     color: #c5c5c5;
-    padding: 0 250px;
-    margin-bottom: 25px;
+    
+    margin-bottom: 15px;
 
 }
-
+/* Botón */
 .btn-1 {
     display: inline-block;
-    padding: 11px 35px;
+    padding: 10px 20px;
     background-color: #ce967b;
     color: #f9fafc;
-    text-transform: uppercase;
+    text-decoration: none;
+	border-radius: 8px;
+	font-weight: bold;
 
 }
 
@@ -414,6 +422,25 @@ link h3{
         display: initial;
 
     }
+	/* Menú de navegación */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Menú responsivo */
+.menu-icono {
+  display: none;
+}
+
 
     .header{
         min-height: 0vh;
