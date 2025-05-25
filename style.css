@@ -24,21 +24,23 @@ body{
 }
 
 .header{
-    
-	background-image: linear-gradient(
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.7)),
-        url(images/bg.jpg);
-        
-        background-repeat: no-repeat;
-        background-size: cover;
-	    background-position: center;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-	    color: white;
-	    position: relative;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ), url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
 }
+	
+
 
 .hero {
     background-image: url("images/bg.jpg"); 
